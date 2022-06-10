@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+.all-wrapper {
+  padding: 10px;
+}
+
+input,
+button {
+  border-radius: 8px;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid gray;
+  width: 100%;
+}
+
+button {
+  background-color: #3d84c6;
+  color: #fff;
+  font-size: 16px;
+}
+
+.logo {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.ikki {
+  margin-top: 7px;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  margin-bottom: 5px;
+  color: gray;
+  margin-top: 10px;
+}
+
+input {
+  border: 2px solid gray;
+}
+
